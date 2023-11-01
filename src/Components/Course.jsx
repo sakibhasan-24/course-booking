@@ -1,5 +1,5 @@
 export default function Course({ course, handleEnrollCourse }) {
-  console.log(course);
+  //   console.log(course);
   return (
     <div className="border-4">
       <div>
