@@ -1,41 +1,45 @@
-export default function Course({ course }) {
+export default function Course({ course, handleEnrollCourse }) {
   console.log(course);
   return (
-    <div className="w-1/2 p-2 border-2">
-      <div className="w-full mx-auto border-4">
+    <div className="border-4">
+      <div>
         <img
-          className="w-full h-[300px] rounded-3xl p-2"
           src={course.courseImg}
-          alt="img"
+          className="p-2 rounded-3xl h-44 w-full"
+          alt={course.courseName}
         />
       </div>
-      <div className="m-3 p-1 ">
-        <h2 className="text-3xl text-center font-extrabold tracking-wide text-gray-600">
+      <div className="my-6 text-center h-[180px]">
+        <h1 className="text-gray-700 text-2xl font-extrabold">
           {course.courseName}
-        </h2>
-        <h3 className="text-xl text-center my-3 text-gray-700">
-          {course.text}
-        </h3>
-        <div className="flex items-center justify-between">
-          <p className="text-3xl font-extralight">
-            {" "}
-            ${" "}
-            <span className="text-4xl font-extrabold text-indigo-950">
-              {course.price}
-            </span>
-          </p>
-          <p className="text-2xl font-bold text-gray-500">
-            Credit <span className="text-3xl">{course.creditHour}</span> hr
-          </p>
-        </div>
-        <p className="text-xl text-blue-950 font-bold my-4">
-          <span className="text-xs"> instructor:</span>
-          {course.instructorName}
-        </p>
-        <button className="bg-green-800 text-yellow-50 border-0 py-2 w-full cursor-pointer px-8 rounded-xl text-2xl">
-          Enroll
-        </button>
+        </h1>
+        <p className="text-gray-500 mt-2 mx-2">{course.text}</p>
       </div>
+      <div className="mb-0 flex justify-between items-center mx-3 ">
+        <p className="font-extralight">
+          $ :{" "}
+          <span className="text-2xl font-bold tracking-wide">
+            {course.price}
+          </span>
+        </p>
+        <p className="text-xl">
+          Credit{" "}
+          <span className="text-gray-600 text-2xl font-extrabold">
+            {course.creditHour}{" "}
+          </span>
+          hr
+        </p>
+      </div>
+      <p className="text-center my-4 bg-gray-600 text-white rounded-lg py-1 px-2 mx-2">
+        Course Instructor :{course.instructorName}
+      </p>
+      <button
+        onClick={() => handleEnrollCourse(course)}
+        className="bg-green-400 py-2 px-5 rounded-xl w-3/4 ml-5 my-2 font-bold text-2xl text-white"
+      >
+        Enroll
+      </button>
     </div>
   );
 }
+/*  ensuring efficient operations, effective leadership, and strategic decision-making."and coordinating of resources and activities to achieve organizational goals */
