@@ -1,0 +1,122 @@
+[
+  {
+    "courseName": "Introduction to Programming",
+    "courseImg": "https://cdn.dribbble.com/users/5485/screenshots/2187027/programming.png",
+    "text": "Learn the fundamentals of programming.How it is Working,what's happening behind the scene.simple problem solving.",
+    "creditHour": 8,
+    "price": 199.99,
+    "instructorName": "John Doe",
+    "hashtag": ["programming", "coding", "beginner"],
+    "id": 1
+  },
+  {
+    "courseName": "Master The Web Development",
+    "courseImg": "https://showmecourses.com/wp-content/uploads/2021/10/web-development.webp",
+    "text": "We will Go From very Basic to Advacne .We will Learn theory and practical.we will focus on understanding not memorizing",
+    "creditHour": 19,
+    "price": 249.99,
+    "id": 2,
+    "instructorName": "Jane Smith",
+    "hashtag": ["web development", "HTML", "CSS"]
+  },
+  {
+    "courseName": "Algorithm",
+    "courseImg": "https://www.forbesindia.com/media/images/2023/Sep/img_218619_algorithm.jpg",
+    "text": "Master the basics Algorithm.How to think,how to think like a problem solver",
+    "creditHour": 5,
+    "price": 299.99,
+    "id": 3,
+    "instructorName": "David Johnson",
+    "hashtag": ["Problem Solving", "THinking", "Understanding"]
+  },
+  {
+    "courseName": "System Aalysis And Design",
+    "courseImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvjT96yWQtkT2vbVPEyI2DXMWWur-wev2dsw&usqp=CAU",
+    "text": "How Works in a Big Company!How to Solve problem,thinking about Cost and Productivity",
+    "creditHour": 3,
+    "price": 199.99,
+    "id": 4,
+    "instructorName": "Emily Wilson",
+    "hashtag": ["SDLC", "AGILE", "DFD"]
+  },
+  {
+    "courseName": "Introduction to Business Management",
+    "courseImg": "https://aaft.edu.in/wp-content/uploads/2023/03/business-management-help-review_141072_large.jpg",
+    "text": "Business management encompasses the planning, organizing, and coordinating of resources and activities to achieve organizational goals, ensuring efficient operations, effective leadership, and strategic decision-making.",
+    "creditHour": 4,
+    "price": 249.99,
+    "id": 5,
+    "instructorName": "Michael Brown",
+    "hashtag": ["business management", "leadership", "entrepreneurship"]
+  },
+  {
+    "courseName": "Basic Cooking",
+    "courseImg": "https://images.livemint.com/img/2023/06/23/1140x641/japanese_food_recipe_tutorial_how_to_1687524225485_1687524234771.jpg",
+    "text": "Learn basics of cooking.different Cuisine.design food.serve easy way.make dish more delicious",
+    "creditHour": 3,
+    "price": 199.99,
+    "id": 6,
+    "instructorName": "Sarah Miller",
+    "hashtag": ["Kitchen Hacks", "cutting vegetables"]
+  },
+  {
+    "courseName": "Basic Photography",
+    "courseImg": "https://www.thoughtco.com/thmb/uHaqS2Nr_Z-DGRxVbWgId1tH66c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/film-photography-592347645-59e4d0609abed500119e7b14.jpg",
+    "text": "Basic photography introduces fundamental concepts like composition, lighting, and camera operation, enabling individuals to capture compelling and well-exposed images",
+    "creditHour": 5,
+    "price": 299.99,
+    "id": 7,
+    "instructorName": "James Anderson",
+    "hashtag": ["Lighting", "Location"]
+  },
+  {
+    "courseName": "Guiter Tutorial",
+    "courseImg": "https://cdn-icons-png.flaticon.com/512/1886/1886630.png",
+    "text": "comprehensive instruction on playing the guitar, covering chords, techniques, and music theory to help aspiring musicians develop their skills and enjoy playing music",
+    "creditHour": 4,
+    "price": 249.99,
+    "id": 8,
+    "instructorName": "Linda Clark",
+    "hashtag": ["Tecnique", "Musician", "Chords"]
+  },
+  {
+    "courseName": "Basic JS",
+    "courseImg": "https://miro.medium.com/v2/resize:fit:1024/1*uWD80gkiVKnSXWssjgkY-g.png",
+    "text": "a versatile language used for web development, enabling students to create interactive and dynamic web applications",
+    "creditHour": 5,
+    "price": 199.99,
+    "id": 9,
+    "instructorName": "Robert Taylor",
+    "hashtag": ["web development", "App Development", "Machine Learning"]
+  },
+  {
+    "courseName": "MongoDb ",
+    "courseImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTq7NhS34vHRoyhJB5SwOcs5OA6Y3xlaj6OA&usqp=CAU",
+    "text": "A MongoDB tutorial offers insights into NoSQL database management, helping users store, retrieve, and work with data in a scalable and flexible way",
+    "creditHour": 5,
+    "price": 299.99,
+    "id": 10,
+    "instructorName": "Alice Wilson",
+    "hashtag": ["CRUD", "SAFE"]
+  },
+  {
+    "courseName": "Basic Excels",
+    "courseImg": "https://www.techspot.com/articles-info/2539/images/2022-09-29-image-2.jpg",
+    "text": "guides users on spreadsheet software, teaching them data management, analysis, and visualization.",
+    "creditHour": 4,
+    "price": 249.99,
+    "id": 11,
+    "instructorName": "Richard Davis",
+    "hashtag": ["financial management", "budgeting", "investment"]
+  },
+  {
+    "courseName": "Ukulele ",
+    "courseImg": "https://static.toiimg.com/photo/msid-99234849/99234849.jpg",
+    "text": "this tutorial provides instruction on playing this small stringed instrument, introducing chords and strumming patterns for enjoyable music-making.",
+    "creditHour": 3,
+    "price": 199.99,
+    "id": 12,
+    "instructorName": "Mark Robinson",
+    "hashtag": ["Music Making", "nostalgic"]
+  }
+]
