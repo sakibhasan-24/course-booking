@@ -27,7 +27,7 @@
     "price": 299.99,
     "id": 3,
     "instructorName": "David Johnson",
-    "hashtag": ["Problem Solving", "THinking", "Understanding"]
+    "hashtag": ["Problem Solving", "Thinking", "Understanding"]
   },
   {
     "courseName": "System Aalysis And Design",
@@ -47,7 +47,7 @@
     "price": 249.99,
     "id": 5,
     "instructorName": "Michael Brown",
-    "hashtag": ["business management", "leadership", "entrepreneurship"]
+    "hashtag": ["business ", "leadership", "entrepreneurship"]
   },
   {
     "courseName": "Basic Cooking",
@@ -57,7 +57,7 @@
     "price": 199.99,
     "id": 6,
     "instructorName": "Sarah Miller",
-    "hashtag": ["Kitchen Hacks", "cutting vegetables"]
+    "hashtag": ["cutting", "design dish"]
   },
   {
     "courseName": "Basic Photography",
@@ -87,7 +87,7 @@
     "price": 199.99,
     "id": 9,
     "instructorName": "Robert Taylor",
-    "hashtag": ["web development", "App Development", "Machine Learning"]
+    "hashtag": ["web expert", "App expert", "Machine Learning"]
   },
   {
     "courseName": "MongoDb ",
@@ -107,7 +107,7 @@
     "price": 249.99,
     "id": 11,
     "instructorName": "Richard Davis",
-    "hashtag": ["financial management", "budgeting", "investment"]
+    "hashtag": ["financial ", "budgeting", "investment"]
   },
   {
     "courseName": "Ukulele ",

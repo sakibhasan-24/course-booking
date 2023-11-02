@@ -6,12 +6,13 @@ export default function Enrolls({ enrollCourse, remainingTime, creditTime }) {
           {remainingTime === 20 ? (
             <p className="p-2  text-center font-bold">
               {" "}
-              you don't add any Course
+              you don't add any Course (highest 20Hr)
             </p>
           ) : (
             <h1 className="p-2  text-center">
               Credits Hour Remaining
               <span className="text-2xl font-bold">{remainingTime}</span> hr
+              (20H)
             </h1>
           )}
         </>
@@ -30,9 +31,19 @@ export default function Enrolls({ enrollCourse, remainingTime, creditTime }) {
             {i + 1}:{course.courseName}
           </p>
         ))}
-        <h1 className="text-white text-center font-bold">
-          total Credit Hour : {creditTime}
-        </h1>
+        {creditTime === 20 ? (
+          <h1 className="text-white text-center font-bold">
+            congratulations.Please confirm Now.{" "}
+            <span className="text-red-800 font-extrabold text-2xl">
+              reached
+            </span>{" "}
+            the limit({creditTime})H
+          </h1>
+        ) : (
+          <h1 className="text-white text-center font-bold">
+            total credit Hour {creditTime}hr
+          </h1>
+        )}
       </div>
     </div>
   );
