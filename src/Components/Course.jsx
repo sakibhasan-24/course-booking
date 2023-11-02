@@ -1,7 +1,6 @@
 export default function Course({ course, handleEnrollCourse }) {
-  //   console.log(course);
   return (
-    <div className="border-4">
+    <div className="border-4 ">
       <div>
         <img
           src={course.courseImg}
@@ -34,6 +33,7 @@ export default function Course({ course, handleEnrollCourse }) {
         Course Instructor :{course.instructorName}
       </p>
       <button
+        disabled={course.disabled}
         onClick={() => handleEnrollCourse(course)}
         className="bg-green-400 py-2 px-5 rounded-xl w-3/4 ml-5 my-2 font-bold text-2xl text-white"
       >
